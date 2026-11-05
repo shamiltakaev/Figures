@@ -1,0 +1,27 @@
+name: flutter_shapes_game
+description: "A fun and happy shapes popping game for kids."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Библиотека для одновременного воспроизведения музыки и звуков
+  audioplayers: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Подключение папки со звуками. Файлы должны лежать в папке assets/
+  assets:
+    - assets/music.mp3
+    - assets/pop.mp3
